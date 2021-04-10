@@ -1,0 +1,89 @@
+/* Universal Selectors */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #88B888;
+    --secondary: #80AD80;
+    --tertiary: #709C70;
+    --dark: #606060;
+    --light: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: var(--primary);
+    background-color: var(--light);
+    line-height: 1.2;
+    scroll-behavior: smooth;
+}
+
+/* Fonts */
+h1 {
+    font-family: broadacre-hairline-0, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+/* Main */
+main {
+    width: 100%;
+    display: inline-block;
+}
+
+/* Sections */
+
+/* APIs */
+
+/* Images */
+
+/* Footer */
+footer {
+    padding: 20px;
+    clear: both;
+    font-family: sans-serif;
+    text-align: center;
+    background: var(--light);
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 1.0em;
+}
+
+/* Responsive Elements */
+.hero-bg {
+    background-image: url('../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+.hero-bg {
+    background-image: url('../images/hero-tablet.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+  
+@media screen and (max-width: 576px) {
+.hero-bg {
+    background-image: url('../images/hero-phone.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

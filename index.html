@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bulma CSS Styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <!-- Adobe Type Kit Font
+    <link rel="stylesheet" href="https://use.typekit.net/bii5xdb.css"> -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Find Dog Park Near You!</title>
+</head>
+
+<body>
+    <!-- Logo / Live Text -->
+    <nav class="navbar has-shadow is-white">
+        <div class="navbar-brand flex-wrap">
+            <a class="navbar-item">
+                <img src="assets/images/logo.png" alt="Best Paws Logo" style="max-height: 50px" class="py-2 px-2">
+            </a>
+            <h1 class="is-size-2 has-text-success has-background-white pt-2">Best Paws</h1>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+         </div>
+
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item">History</a>
+                <a class="navbar-item">Gallery</a>
+                <a class="navbar-item">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search -->
+    <section class="section">
+        <div class="container">
+            <header role="banner">
+                <div class="hero has-text-centered">
+                    <h1 class="has-text-success is-size-2 pt-3">Find the closest dog park!</h1>
+                    <!-- <img src="assets/images/hero-desktop.jpg" alt="Find Friendly Parks Near You"> -->
+                </div>
+            </header>
+
+            <div class="field has-addons has-addons-centered pt-3">
+                <p class="control" id="zipInput">
+                    <input class="input is-success" type="text" id= "zip-input" placeholder="Find Dog Parks Nearby">
+                </p>
+                <p class="control">
+                    <a class="button is-success">Search</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/script.js" type="text/javascript"></script>
+</body>
+
+</html>
