@@ -4,4 +4,4 @@ A mobile and pup friendly application designed to connect users with dog parks i
 
 ## Links
 
-Live Site: https://witnessmyhands.github.io/Best-Paws/
+Live Site: https://witnessmyhands.github.io/Best-Paws-Site/
