@@ -6,7 +6,7 @@ A mobile and pup friendly application designed to connect users with dog parks i
 
 This is a list of the team members.
 
-<img src="./assests/images/names.png">
+<img src="./assets/images/names.png">
 
 
 ## Links
